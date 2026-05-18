@@ -1,0 +1,25 @@
+# AGENTS.md
+
+## Project Overview
+
+- 이 프로젝트는 Astro 기반 개인 홈페이지입니다.
+- 최종 배포 목표는 GitHub Pages의 `github.io` 주소입니다.
+
+## Working Rules
+
+- 새 라이브러리는 사용자 승인 없이 추가하지 않습니다.
+- 관련 없는 파일은 수정하지 않습니다.
+- `secret`, `token`, `password`, `API key`를 코드에 작성하지 않습니다.
+- 삭제 명령은 실행 전에 반드시 사용자에게 물어봅니다.
+- 수정 후 변경한 파일과 이유를 설명합니다.
+- 가능하면 `npm run build`로 변경사항을 확인합니다.
+- 변경사항이 생기면 자주 commit합니다.
+
+## Commit Message Rules
+
+커밋 메시지는 아래 형식을 사용합니다.
+
+- `feat: 한국어설명`
+- `fix: 한국어설명`
+- `chore: 한국어설명`
+- `docs: 한국어설명`

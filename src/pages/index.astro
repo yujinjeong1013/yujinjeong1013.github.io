@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="zeze | Personal Homepage"
+  description="zeze의 소개, 프로젝트와 글을 담아갈 개인 홈페이지입니다."
+>
+  <main class="home">
+    <nav class="site-nav" aria-label="주요 메뉴">
+      <a class="brand" href="/">zeze</a>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/about">About</a>
+      <a href="/projects">Projects</a>
+      <a href="/posts">Posts</a>
+    </nav>
+
+    <section class="intro" aria-labelledby="home-title">
+      <div class="profile-mark" aria-hidden="true">
+        <span></span>
+      </div>
+      <p class="eyebrow">Personal Homepage</p>
+      <h1 id="home-title">Hi, I'm zeze. 기록하고 만들며 성장하는 사람입니다.</h1>
+      <p class="lead">
+        한 줄 소개를 여기에 넣어주세요. 관심 분야, 일하는 방식, 지금 배우는 것을 짧고 분명하게 보여줄 수 있습니다.
+      </p>
+      <div class="intro-actions" aria-label="주요 링크">
+        <a class="button primary" href="/projects">My work</a>
+        <a class="button secondary" href="/about">About me</a>
+      </div>
+    </section>
+
+    <section class="next-steps" aria-labelledby="sections-title">
+      <div class="section-heading">
+        <h2 id="sections-title">Explore</h2>
+        <p>나중에 채워갈 개인 홈페이지의 주요 공간입니다.</p>
+      </div>
+      <article>
+        <h2>About</h2>
+        <p>나의 배경, 관심사, 일하는 방식을 소개할 공간입니다.</p>
+      </article>
+      <article>
+        <h2>Projects</h2>
+        <p>진행한 프로젝트와 결과물을 정리할 공간입니다.</p>
+      </article>
+      <article>
+        <h2>Posts</h2>
+        <p>배운 점, 생각, 작업 과정을 글로 남길 공간입니다.</p>
+      </article>
+    </section>
+
+    <section class="work-preview" aria-labelledby="work-title">
+      <div class="section-heading">
+        <h2 id="work-title">Projects preview</h2>
+        <p>앞으로 작업물을 모아 보여줄 영역입니다.</p>
+      </div>
+      <div class="work-grid">
+        <article class="work-card work-card-a">
+          <span>Learning Log</span>
+        </article>
+        <article class="work-card work-card-b">
+          <span>Side Project</span>
+        </article>
+        <article class="work-card work-card-c">
+          <span>Writing</span>
+        </article>
+        <article class="work-card work-card-wide">
+          <span>Featured Work</span>
+        </article>
+        <article class="work-card work-card-tall">
+          <span>Archive</span>
+        </article>
+      </div>
+    </section>
+  </main>
+</BaseLayout>
